@@ -6,7 +6,8 @@
 }
 
 body {
-  background-color: #0000;
+  background-color: #000000;
+  color: #ffff;
 }
 
 header {
@@ -25,8 +26,13 @@ nav ul {
   grid-template-columns: repeat(4, 1fr);
   list-style: none;
   justify-content: center;
-  text-align: center;
+  text-align: center; 
 
+}
+
+ul li a{
+  text-decoration: none;
+  color: #ffff;
 }
 
 .btn-container {
