@@ -15,5 +15,15 @@ header {
   align-items: center;
 }
 
+nav ul {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  list-style: none;
+  justify-content: center;
+  text-align: center;
+
+  border: 1px solid;
+}
+
 
 
