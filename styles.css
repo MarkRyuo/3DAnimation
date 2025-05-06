@@ -52,3 +52,9 @@ ul li a{
 
 
 /* GRADIENT AND LAYER BLUR EFFECT */
+
+.image-gradient {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
