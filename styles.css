@@ -41,7 +41,8 @@ ul li a{
 }
 
 .btn-container {
-  margin: 0 auto;
+  display: flex;
+  justify-content: end;
   position: relative;
 }
 
