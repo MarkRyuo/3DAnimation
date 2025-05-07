@@ -119,6 +119,7 @@ nav ul li a:hover {
   display: grid;
   grid-template-columns: 1fr 1fr;
   max-width: 1500px;
+  margin: 0 auto;
 }
 
 .content {
