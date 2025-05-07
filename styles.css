@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Tagesschrift&display=swap');
 
 
+
 * {
   margin: 0;
   padding: 0;
@@ -26,6 +27,7 @@ header {
   height: 70px;
   z-index: 10;
 }
+
 
 nav ul {
   display: grid;
