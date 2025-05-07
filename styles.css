@@ -113,5 +113,10 @@ nav ul li a:hover {
 }
 
 
-/* Content */
+/* Hero Section */
+
+.hero-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
 
