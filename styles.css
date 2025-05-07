@@ -28,6 +28,11 @@ header {
   z-index: 10;
 }
 
+header h1 {
+  font-family: 'Tagesschrift', sans-serif;
+  font-size: 2.5rem;
+  color: inherit;
+}
 
 nav ul {
   display: grid;
@@ -36,6 +41,7 @@ nav ul {
   justify-content: center;
   text-align: center; 
 
+  font-family: "Tagesschrift", system-ui;
 }
 
 ul li a{
@@ -105,3 +111,5 @@ nav ul li a:hover {
   z-index: -1;
 
 }
+
+
