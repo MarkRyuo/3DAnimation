@@ -142,5 +142,28 @@ nav ul li a:hover {
 
 .tag {
   font-size: 0.9rem;
-  
+
 }
+
+.tag-box {
+  background: #4b0082;
+  background: linear-gradient(90deg, #4b0082 0%, #dda0dd 80%);
+  background: -webkit-linear-gradient(90deg, #4b0082 0%, #dda0dd 80%);
+  background: -moz-linear-gradient(90deg, #4b0082 0%, #dda0dd 80%);
+
+  background-position: 200%;
+  position: relative;
+  border-radius: 20px;
+  width: 18rem;
+  height: 2.5rem;
+
+  animation: taganimation 2.5s linear infinite;
+
+}
+
+@keyframes taganimation {
+  to {
+    background-position: 200%;
+  }
+}
+
