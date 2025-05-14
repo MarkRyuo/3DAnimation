@@ -70,16 +70,16 @@ nav ul li a:hover {
   transition: opacity 0.3s;
 }
 
-li > a::after {
+nav ul li a::after {
   content: '';
   display: block;
-  width: 0px;
+  width: 30px;
   height: 2px;
   background: #fff;
   transition: width 0.3s;
 }
 
-li > a:hover::after {
+nav ul li a:hover::after {
   width: 100%;
 }
 
