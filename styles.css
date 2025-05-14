@@ -124,7 +124,7 @@ nav ul li a:hover {
   gap: 10px;
   min-height: calc(90vh - 6rem);
 
-  
+
 }
 
 .content {
@@ -135,16 +135,15 @@ nav ul li a:hover {
 
   height: 300px;
 
+  
 }
 
 .content h1 {
   font-size: 2.5rem;
-
 }
 
 .tag {
   font-size: 0.9rem;
-
 }
 
 .tag-box {
