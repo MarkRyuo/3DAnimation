@@ -146,24 +146,45 @@ nav ul li a:hover {
 }
 
 .tag-box {
-  background: #4b0082;
-  background: linear-gradient(90deg, #4b0082 0%, #dda0dd 80%);
-  background: -webkit-linear-gradient(90deg, #4b0082 0%, #dda0dd 80%);
-  background: -moz-linear-gradient(90deg, #4b0082 0%, #dda0dd 80%);
+  position: relative;
+  background: linear-gradient(to right, #656565, #7f42a7, #6600c5, #5300a0, #757575, #656565);  
 
-  background-position: 200%;
+  background-size: 200%;
   position: relative;
   border-radius: 20px;
   width: 18rem;
   height: 2.5rem;
 
-  animation: taganimation 2.5s linear infinite;
+  animation: animationGradient 2.5s linear infinite;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.568);
 
 }
 
-@keyframes taganimation {
+@keyframes animationGradient {
   to {
     background-position: 200%;
   }
 }
+
+
+.tag-box .tag {
+    position: absolute;
+    inset: 3px 3px 3px 3px;
+    background-color: #000000;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s ease;
+}
+
+.hero-container h1 {
+  letter-spacing: 0.1em;
+  font-weight: 400;
+}
+
+.hero-container .description {
+  letter-spacing: 2px;
+}
+
 
