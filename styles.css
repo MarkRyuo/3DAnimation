@@ -198,5 +198,7 @@ nav ul li a:hover {
 
 
 .robot-3d {
-  
+  position: absolute;
+  top: 0;
+  right: -20%;
 }

@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <title>3D Animation</title>
 </head>
 <body>
@@ -16,7 +17,7 @@
 
     <nav>
       <ul>
-        <li><a href="#company">Company</a></li>
+        <li><a href="#company" data-aos="fade-down" data-aos-duration="1500">Company</a></li>
         <li><a href="#features">Features</a></li>
         <li><a href="#resources">Resources</a></li>
         <li><a href="#docs">Docs</a></li>
@@ -52,4 +53,8 @@
   <script type="module" src="https://unpkg.com/@splinetool/viewer@1.9.94/build/spline-viewer.js"></script>
   </body>
 </body>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 </html>
